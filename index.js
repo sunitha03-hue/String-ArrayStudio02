@@ -9,15 +9,20 @@ strings = [protoArray1, protoArray2, protoArray3, protoArray4];
 
 
 //b) If the string uses commas to separate the words, split it into an array, reverse the entries, and then join the array into a new comma separated string.
-
-
-
+console.log("******************");
+let newprotoArray1 = protoArray1.split(",").reverse().join(",");
+console.log(newprotoArray1);
+console.log("******************");
 //c) If the string uses semicolons to separate the words, split it into an array, alphabetize the entries, and then join the array into a new comma separated string.
-
-
-
+let newprotoArray2 = protoArray2.split(";").sort().join(";");
+console.log(newprotoArray2);
+console.log("******************");
 //d) If the string uses spaces to separate the words, split it into an array, reverse alphabetize the entries, and then join the array into a new space separated string.
-
-
-
+let newprotoArray3 = protoArray3.split(" ").sort().join(" ");
+console.log(newprotoArray3);
+console.log("******************");
 //e) If the string uses ‘comma spaces’ to separate the list, modify your code to produce the same result as part “b”, making sure that the extra spaces are NOT part of the final string.
+
+ let newprotoArray4 = protoArray4.split(", ").reverse().join(',');
+  console.log(newprotoArray4);
+ console.log("******************");
